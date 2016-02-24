@@ -7,7 +7,6 @@
 # lists created by "makeCacheMatrix" and computes the inverse, but only
 # if it has not already been stored in the object
 
-
 ## Write a short comment describing this function
 # makeCacheMatrix is a constructor function that takes a matrix as an argument 
 # and creates a matrix-like object which is technically a list of functions. 
@@ -21,7 +20,6 @@
 # 2. get: this function retrieves the input matrix, "nums"
 # 3. set.inverse: assigns the argument "inverse" to the variable "inv"
 # 4. get.inverse: retrieves the variable "inv"
-
 
 makeCacheMatrix <- function(nums = matrix()) {
   inverse <- NULL
